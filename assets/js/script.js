@@ -13,7 +13,7 @@ var getLength =function(pwdLength){
       window.alert("You entered a String, Please enter a Valid number");
     }
     else if(pwdLength<8 || pwdLength>128){
-      window.alert("Password has to be more 8 or less than 128");
+      window.alert("Password has to be more than 8 or less than 128");
     }
   }
   return pwdLength;
@@ -37,7 +37,7 @@ var generatePassword= function(){
       }
       else{
         atLeastOneSelected=false;
-        window.alert("You need to sleect atleast One option")//Ask the user to reneter thier choices 
+        window.alert("You need to select atleast One option")//Ask the user to reneter thier choices 
       }
     }
   for(var i = 0; i <pwdLength;i++){//Loop for ever password character.
